@@ -17,10 +17,10 @@ export function formResults(images) {
                 <img src="${webformatURL}" alt="${tags}" width="360" height="200"/>
             </a>
             <div class="info">
-                <p class="info-text"><b class="xz">Likes:</b> ${likes}</p>
-                <p class="info-text"><b class="xz">Views:</b> ${views}</p>
-                <p class="info-text"><b class="xz">Comments:</b> ${comments}</p>
-                <p class="info-text"><b class="xz">Downloads:</b> ${downloads}</p>
+                <p class="info-text"><b class="bold-text">Likes:</b> ${likes}</p>
+                <p class="info-text"><b class="bold-text">Views:</b> ${views}</p>
+                <p class="info-text"><b class="bold-text">Comments:</b> ${comments}</p>
+                <p class="info-text"><b class="bold-text">Downloads:</b> ${downloads}</p>
             </div>
         </div>
     `
